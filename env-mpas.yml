@@ -1,0 +1,22 @@
+name: mpas
+
+channels:
+    - conda-forge
+    - defaults
+    - ncar
+
+dependencies:
+    - numpy
+    - geocat-comp
+    - matplotlib
+    - xarray
+    - cartopy
+    - scipy
+    - pandas
+    - datashader
+    - holoviews
+    - geoviews
+    - geocat-datafiles
+    - dask
+    - numba
+    - ipykernel
